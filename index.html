@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Task List</title>
+  </head>
+  <body onLoad="document.myform.mytasks.focus();">
+    <h1>Task List</h1>
+    <div class="container flex task__form">
+      <h2>Add Task</h2>
+      <div class="task__inputs flex flex-center">
+        <form name="myform" class="myform">
+          <input
+            class="task__input"
+            type="text"
+            id="mytasks"
+            name="mytasks"
+            placeholder="...Tasks"
+          />
+        </form>
+        <a href="#"
+          ><span class="material-icons add__item"> add_circle_outline </span></a
+        >
+      </div>
+
+      <!-- <div class="tasks flex flex-center"> -->
+      <div class="task__container">
+        <a href="#"
+          ><span class="material-icons delete-all"> delete_sweep </span></a
+        >
+        <ul class="task__list">
+          <!-- <div class="tasks__li flex flex-center">
+            <a href="#"
+              ><span class="material-icons delete"> delete_forever </span></a
+            >
+            <li>First task</li>
+          </div> -->
+        </ul>
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
