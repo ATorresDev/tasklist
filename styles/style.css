@@ -190,7 +190,7 @@ li {
   }
   .task__inputs .material-icons,
   .task__input .material-icons {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: black;
   }
   .task__container {
@@ -212,3 +212,12 @@ li {
     margin-top: 0.75rem;
   }
 }
+
+/* @media screen and (max-width: 375px) {
+  .task__inputs {
+    width: 100%;
+  }
+  .task__container {
+    width: 100%;
+  }
+} ; */
